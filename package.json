@@ -1,0 +1,25 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "First attempt on making a rest api using node, express and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalikChodhary/rest-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SalikChodhary/rest-api/issues"
+  },
+  "homepage": "https://github.com/SalikChodhary/rest-api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.19",
+    "nodemon": "^2.0.4"
+  }
+}
